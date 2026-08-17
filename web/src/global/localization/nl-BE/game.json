@@ -1,0 +1,184 @@
+{
+  "title": "Spellen",
+  "newGame": "Nieuw spel",
+  "empty": "Nog geen spellen — start je eerste.",
+  "notFound": "Spel niet gevonden.",
+  "backToList": "Terug naar spellen",
+  "status": { "setup": "Opzetten", "active": "Bezig", "finished": "Afgelopen" },
+  "list": { "players": "{{count}} spelers", "turn": "Beurt {{n}}" },
+  "actions": { "delete": "Spel verwijderen" },
+  "mode": { "play": "Spelen", "edit": "Bord bewerken" },
+  "color": {
+    "red": "Rood",
+    "blue": "Blauw",
+    "green": "Groen",
+    "yellow": "Geel",
+    "black": "Zwart",
+    "purple": "Paars"
+  },
+  "setup": {
+    "title": "Nieuw spel",
+    "name": "Spelnaam",
+    "playerCount": "Aantal spelers",
+    "players": "Spelers",
+    "me": "Dit ben ik",
+    "winCondition": "Winvoorwaarde",
+    "worldDomination": "Wereldheerschappij",
+    "secretMission": "Geheime missie",
+    "assignMission": "Jouw geheime missie",
+    "cancel": "Annuleren",
+    "create": "Spel aanmaken"
+  },
+  "phase": {
+    "setup_claim": "Gebieden claimen",
+    "setup_deploy": "Legers plaatsen",
+    "reinforce": "Versterken",
+    "attack": "Aanvallen",
+    "fortify": "Verplaatsen",
+    "game_over": "Spel afgelopen",
+    "yourTurn": "Jouw beurt",
+    "whoseTurn": "Beurt van {{name}}",
+    "winner": "{{name}} wint! 🎉",
+    "armiesToPlace": "{{count}} te plaatsen",
+    "turnNumber": "Beurt {{n}}",
+    "toAttack": "Naar aanvallen",
+    "toFortify": "Naar verplaatsen",
+    "endTurn": "Beurt beëindigen"
+  },
+  "controls": {
+    "claim": "Tik op vrije gebieden om ze aan {{name}} te geven.",
+    "deploy": "Tik op de gebieden van {{name}} om legers te plaatsen ({{count}} over).",
+    "reinforceMine": "Tik op je gebieden om legers te plaatsen, of pas een suggestie toe. {{count}} over.",
+    "reinforceOpp": "Noteer de versterkingen van {{name}} op het bord.",
+    "attackMine": "Kies een gebied om vanaf aan te vallen, dan een doel.",
+    "attackOpp": "Noteer de aanvallen van {{name}} op het bord.",
+    "fortifyMine": "Kies een bron, dan een verbonden gebied om te versterken.",
+    "fortifyOpp": "Noteer de verplaatsing van {{name}} op het bord.",
+    "opponentTrade": "Ze wisselden een set in"
+  },
+  "advisor": {
+    "title": "Aanbevelingen",
+    "empty": "Momenteel geen suggesties.",
+    "apply": "Toepassen",
+    "odds": "{{pct}}% kans"
+  },
+  "reasons": {
+    "place": {
+      "mission": "Versterk {{territory}} — helpt je missie (+{{armies}})",
+      "defendContinent": "Versterk {{territory}} — verdedig je continentbonus (+{{armies}})",
+      "defendBorder": "Versterk {{territory}} — bedreigde grens (+{{armies}})",
+      "stage": "Versterk {{territory}} — opstelling voor je volgende aanval (+{{armies}})"
+    },
+    "tradeIn": {
+      "mandatory": "Wissel nu een set in — het moet (waard {{value}})",
+      "highValue": "Wissel een set in — {{value}} legers waard",
+      "optional": "Wissel een set in — {{value}} legers waard"
+    },
+    "attack": {
+      "takeCard": "Val {{from}} → {{to}} aan — verzeker een kaart deze beurt",
+      "completeContinent": "Val {{from}} → {{to}} aan — voltooit een continent",
+      "eliminate": "Val {{from}} → {{to}} aan — kan een speler uitschakelen",
+      "breakBonus": "Val {{from}} → {{to}} aan — breekt hun bonus",
+      "mission": "Val {{from}} → {{to}} aan — helpt je missie",
+      "favorable": "Val {{from}} → {{to}} aan — gunstige kansen",
+      "stop": "Overweeg te stoppen — houd je grenzen"
+    },
+    "fortify": {
+      "consolidate": "Versterk {{from}} → {{to}} — verplaats {{count}} naar het front"
+    },
+    "defend": {
+      "rollMax": "Verdedig {{territory}} met {{dice}} dobbelstenen"
+    },
+    "threat": {
+      "continentSoon": "{{player}} staat één gebied van {{continent}}",
+      "cardSet": "{{player}} heeft {{cards}} kaarten — kan ~{{value}} inwisselen",
+      "mission": "{{player}} is mogelijk dicht bij hun missie ({{progress}})"
+    }
+  },
+  "attack": {
+    "title": "Aanvallen",
+    "armies": "Aanvaller {{atk}} vs verdediger {{def}}",
+    "diceAttacker": "Dobbelstenen aanvaller",
+    "diceDefender": "Dobbelstenen verdediger",
+    "attackerLosses": "Verlies aanvaller",
+    "defenderLosses": "Verlies verdediger",
+    "captured": "Gebied veroverd!",
+    "moveIn": "Legers om te verplaatsen",
+    "confirm": "Resultaat noteren"
+  },
+  "fortify": { "title": "Verplaatsen", "count": "Legers om te verplaatsen", "confirm": "Verplaatsen" },
+  "cards": {
+    "title": "Kaarten",
+    "hand": "Jij",
+    "opponents": "Anderen",
+    "deck": "Stapel",
+    "emptyHand": "Nog geen kaarten.",
+    "nextSet": "Volgende set: {{value}}",
+    "tradeIn": "Inwisselen",
+    "mustTrade": "Moet inwisselen"
+  },
+  "opponent": {
+    "eliminatedTitle": "Speler uitgeschakeld",
+    "eliminatedBody": "{{by}} schakelde {{victim}} uit. Noteer de veroverde kaarten.",
+    "receivedCards": "Kaarten die je veroverde",
+    "cardsTransferred": "Veroverde kaarten",
+    "confirmEliminate": "Uitschakeling bevestigen"
+  },
+  "missions": {
+    "title": "Missies",
+    "suspected": "Vermoede missies van tegenstanders",
+    "logSuspected": "Vermoeden noteren"
+  },
+  "missionEliminate": "Schakel de {{color}} speler uit",
+  "missionCatalog": {
+    "asia_africa": "Verover Azië en Afrika",
+    "asia_south_america": "Verover Azië en Zuid-Amerika",
+    "north_america_africa": "Verover Noord-Amerika en Afrika",
+    "north_america_australia": "Verover Noord-Amerika en Australië",
+    "europe_australia_any": "Verover Europa, Australië en één extra",
+    "europe_south_america_any": "Verover Europa, Zuid-Amerika en één extra",
+    "capture_24": "Bezet 24 gebieden",
+    "capture_18_two_each": "Bezet 18 gebieden met 2 legers elk",
+    "eliminate_red": "Schakel de rode speler uit",
+    "eliminate_blue": "Schakel de blauwe speler uit",
+    "eliminate_green": "Schakel de groene speler uit",
+    "eliminate_yellow": "Schakel de gele speler uit",
+    "eliminate_black": "Schakel de zwarte speler uit",
+    "eliminate_purple": "Schakel de paarse speler uit"
+  },
+  "correction": {
+    "title": "{{territory}} bewerken",
+    "owner": "Eigenaar",
+    "none": "Geen eigenaar",
+    "armies": "Legers",
+    "save": "Opslaan"
+  },
+  "history": {
+    "title": "Geschiedenis",
+    "empty": "Nog geen zetten.",
+    "undo": "Ongedaan maken",
+    "redo": "Opnieuw"
+  },
+  "events": {
+    "claim": "{{player}} claimde {{territory}}",
+    "deploy": "{{player}} plaatste legers",
+    "trade": "{{player}} wisselde een set in",
+    "place": "{{player}} versterkte",
+    "attack": "Aanval {{from}} → {{to}}",
+    "attackConquer": "Veroverde {{to}} op {{from}}",
+    "fortify": "Verplaatste {{from}} → {{to}} ({{count}})",
+    "draw": "{{player}} nam een kaart",
+    "eliminate": "{{by}} schakelde {{player}} uit",
+    "advance": "Fase gevorderd",
+    "winner": "{{player}} won",
+    "edit": "{{territory}} bewerkt",
+    "setCount": "{{player}} heeft nu {{count}} kaarten",
+    "setMission": "Missie ingesteld",
+    "suspect": "Vermoeden genoteerd over {{player}}",
+    "reshuffle": "Stapel geschud"
+  },
+  "notifications": {
+    "deleted": "Spel verwijderd",
+    "error": "Er ging iets mis."
+  }
+}

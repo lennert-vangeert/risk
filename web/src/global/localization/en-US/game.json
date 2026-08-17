@@ -1,0 +1,184 @@
+{
+  "title": "Games",
+  "newGame": "New game",
+  "empty": "No games yet — start your first one.",
+  "notFound": "Game not found.",
+  "backToList": "Back to games",
+  "status": { "setup": "Setting up", "active": "In progress", "finished": "Finished" },
+  "list": { "players": "{{count}} players", "turn": "Turn {{n}}" },
+  "actions": { "delete": "Delete game" },
+  "mode": { "play": "Play", "edit": "Edit board" },
+  "color": {
+    "red": "Red",
+    "blue": "Blue",
+    "green": "Green",
+    "yellow": "Yellow",
+    "black": "Black",
+    "purple": "Purple"
+  },
+  "setup": {
+    "title": "New game",
+    "name": "Game name",
+    "playerCount": "Number of players",
+    "players": "Players",
+    "me": "This is me",
+    "winCondition": "Win condition",
+    "worldDomination": "World domination",
+    "secretMission": "Secret mission",
+    "assignMission": "Your secret mission",
+    "cancel": "Cancel",
+    "create": "Create game"
+  },
+  "phase": {
+    "setup_claim": "Claiming territories",
+    "setup_deploy": "Deploying armies",
+    "reinforce": "Reinforce",
+    "attack": "Attack",
+    "fortify": "Fortify",
+    "game_over": "Game over",
+    "yourTurn": "Your turn",
+    "whoseTurn": "{{name}}'s turn",
+    "winner": "{{name}} wins! 🎉",
+    "armiesToPlace": "{{count}} to place",
+    "turnNumber": "Turn {{n}}",
+    "toAttack": "Go to attack",
+    "toFortify": "Go to fortify",
+    "endTurn": "End turn"
+  },
+  "controls": {
+    "claim": "Tap unclaimed territories to give them to {{name}}.",
+    "deploy": "Tap {{name}}'s territories to place armies ({{count}} left).",
+    "reinforceMine": "Tap your territories to place armies, or apply a suggestion. {{count}} left.",
+    "reinforceOpp": "Record {{name}}'s reinforcements on the board.",
+    "attackMine": "Pick a territory to attack from, then a target.",
+    "attackOpp": "Record {{name}}'s attacks on the board.",
+    "fortifyMine": "Pick a source, then a connected territory to fortify.",
+    "fortifyOpp": "Record {{name}}'s fortify on the board.",
+    "opponentTrade": "They traded in a set"
+  },
+  "advisor": {
+    "title": "Recommendations",
+    "empty": "No suggestions right now.",
+    "apply": "Apply",
+    "odds": "{{pct}}% win"
+  },
+  "reasons": {
+    "place": {
+      "mission": "Reinforce {{territory}} — advances your mission (+{{armies}})",
+      "defendContinent": "Reinforce {{territory}} — defend your continent bonus (+{{armies}})",
+      "defendBorder": "Reinforce {{territory}} — threatened border (+{{armies}})",
+      "stage": "Reinforce {{territory}} — stage for next attack (+{{armies}})"
+    },
+    "tradeIn": {
+      "mandatory": "Trade in a set now — you must (worth {{value}})",
+      "highValue": "Trade in a set — worth {{value}} armies",
+      "optional": "Trade in a set — worth {{value}} armies"
+    },
+    "attack": {
+      "takeCard": "Attack {{from}} → {{to}} — secure a card this turn",
+      "completeContinent": "Attack {{from}} → {{to}} — completes a continent",
+      "eliminate": "Attack {{from}} → {{to}} — can eliminate a player",
+      "breakBonus": "Attack {{from}} → {{to}} — breaks their bonus",
+      "mission": "Attack {{from}} → {{to}} — advances your mission",
+      "favorable": "Attack {{from}} → {{to}} — favorable odds",
+      "stop": "Consider stopping — hold your borders"
+    },
+    "fortify": {
+      "consolidate": "Fortify {{from}} → {{to}} — move {{count}} to the front"
+    },
+    "defend": {
+      "rollMax": "Defend {{territory}} with {{dice}} dice"
+    },
+    "threat": {
+      "continentSoon": "{{player}} is one territory from taking {{continent}}",
+      "cardSet": "{{player}} holds {{cards}} cards — can cash ~{{value}}",
+      "mission": "{{player}} may be near their mission ({{progress}})"
+    }
+  },
+  "attack": {
+    "title": "Attack",
+    "armies": "Attacker {{atk}} vs defender {{def}}",
+    "diceAttacker": "Attacker dice",
+    "diceDefender": "Defender dice",
+    "attackerLosses": "Attacker losses",
+    "defenderLosses": "Defender losses",
+    "captured": "Territory captured!",
+    "moveIn": "Armies to move in",
+    "confirm": "Record result"
+  },
+  "fortify": { "title": "Fortify", "count": "Armies to move", "confirm": "Fortify" },
+  "cards": {
+    "title": "Cards",
+    "hand": "You",
+    "opponents": "Others",
+    "deck": "Deck",
+    "emptyHand": "No cards yet.",
+    "nextSet": "Next set: {{value}}",
+    "tradeIn": "Trade in",
+    "mustTrade": "Must trade"
+  },
+  "opponent": {
+    "eliminatedTitle": "Player eliminated",
+    "eliminatedBody": "{{by}} eliminated {{victim}}. Record the captured cards.",
+    "receivedCards": "Cards you captured",
+    "cardsTransferred": "Cards captured",
+    "confirmEliminate": "Confirm elimination"
+  },
+  "missions": {
+    "title": "Missions",
+    "suspected": "Suspected opponent missions",
+    "logSuspected": "Log suspicion"
+  },
+  "missionEliminate": "Eliminate the {{color}} player",
+  "missionCatalog": {
+    "asia_africa": "Conquer Asia and Africa",
+    "asia_south_america": "Conquer Asia and South America",
+    "north_america_africa": "Conquer North America and Africa",
+    "north_america_australia": "Conquer North America and Australia",
+    "europe_australia_any": "Conquer Europe, Australia and one more",
+    "europe_south_america_any": "Conquer Europe, South America and one more",
+    "capture_24": "Occupy 24 territories",
+    "capture_18_two_each": "Occupy 18 territories with 2 armies each",
+    "eliminate_red": "Eliminate the red player",
+    "eliminate_blue": "Eliminate the blue player",
+    "eliminate_green": "Eliminate the green player",
+    "eliminate_yellow": "Eliminate the yellow player",
+    "eliminate_black": "Eliminate the black player",
+    "eliminate_purple": "Eliminate the purple player"
+  },
+  "correction": {
+    "title": "Edit {{territory}}",
+    "owner": "Owner",
+    "none": "Unowned",
+    "armies": "Armies",
+    "save": "Save"
+  },
+  "history": {
+    "title": "History",
+    "empty": "No moves yet.",
+    "undo": "Undo",
+    "redo": "Redo"
+  },
+  "events": {
+    "claim": "{{player}} claimed {{territory}}",
+    "deploy": "{{player}} deployed armies",
+    "trade": "{{player}} traded in a set",
+    "place": "{{player}} reinforced",
+    "attack": "Attack {{from}} → {{to}}",
+    "attackConquer": "Captured {{to}} from {{from}}",
+    "fortify": "Fortified {{from}} → {{to}} ({{count}})",
+    "draw": "{{player}} drew a card",
+    "eliminate": "{{by}} eliminated {{player}}",
+    "advance": "Advanced phase",
+    "winner": "{{player}} won",
+    "edit": "Edited {{territory}}",
+    "setCount": "{{player}} now has {{count}} cards",
+    "setMission": "Set your mission",
+    "suspect": "Logged a suspicion about {{player}}",
+    "reshuffle": "Deck reshuffled"
+  },
+  "notifications": {
+    "deleted": "Game deleted",
+    "error": "Something went wrong."
+  }
+}
